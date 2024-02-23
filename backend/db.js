@@ -1,9 +1,7 @@
 const mongoose = require("mongoose");
 const { boolean } = require("zod");
 
-mongoose.connect(
-  "mongodb+srv://Shreeram312:Shreeram@cluster0.3ixvhro.mongodb.net/Todoapplication"
-);
+mongoose.connect();
 
 // const TodoSchema = mongoose.Schema({
 //   title: String,
